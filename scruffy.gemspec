@@ -8,6 +8,7 @@ authors:
 - Jeremy Green
 - samhendley
 - delano
+- srawlins
 autorequire: 
 bindir: bin
 cert_chain: []
@@ -29,6 +30,7 @@ description: Scruffy is a Ruby library for generating high quality, good looking
 email: 
 - brasten@nagilum.com
 - david.parry@suranyami.com
+- sam.rawlins@gmail.com
 executables: []
 
 extensions: []
