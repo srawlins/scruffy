@@ -1,7 +1,7 @@
 --- !ruby/object:Gem::Specification 
-name: scruffy
+name: srawlins-scruffy
 version: !ruby/object:Gem::Version 
-  version: 0.2.9
+  version: 0.2.9.1
 platform: ruby
 authors: 
 - Brasten Sager
@@ -41,17 +41,20 @@ files:
 - lib/scruffy/rasterizers/rmagick_rasterizer.rb
 - lib/scruffy/rasterizers/batik_rasterizer.rb
 - lib/scruffy/version.rb
-- lib/scruffy/layers/base.rb
+- lib/scruffy/layers/all_smiles.rb
 - lib/scruffy/layers/area.rb
-- lib/scruffy/layers/stacked.rb
+- lib/scruffy/layers/average.rb
+- lib/scruffy/layers/bar.rb
+- lib/scruffy/layers/base.rb
+- lib/scruffy/layers/box.rb
+- lib/scruffy/layers/line.rb
+- lib/scruffy/layers/multi.rb
+- lib/scruffy/layers/multi_bar.rb
+- lib/scruffy/layers/pie.rb
 - lib/scruffy/layers/pie_slice.rb
 - lib/scruffy/layers/scatter.rb
-- lib/scruffy/layers/bar.rb
 - lib/scruffy/layers/sparkline_bar.rb
-- lib/scruffy/layers/pie.rb
-- lib/scruffy/layers/all_smiles.rb
-- lib/scruffy/layers/average.rb
-- lib/scruffy/layers/line.rb
+- lib/scruffy/layers/stacked.rb
 - lib/scruffy/rasterizers.rb
 - lib/scruffy/renderers.rb
 - lib/scruffy/themes.rb
@@ -74,15 +77,17 @@ files:
 - lib/scruffy/components/grid.rb
 - lib/scruffy/components/title.rb
 - lib/scruffy/graph.rb
-- lib/scruffy/renderers/sparkline.rb
+- lib/scruffy/renderers/axis_legend.rb
 - lib/scruffy/renderers/base.rb
-- lib/scruffy/renderers/reversed.rb
-- lib/scruffy/renderers/split.rb
-- lib/scruffy/renderers/cubed3d.rb
-- lib/scruffy/renderers/standard.rb
-- lib/scruffy/renderers/pie.rb
-- lib/scruffy/renderers/empty.rb
 - lib/scruffy/renderers/cubed.rb
+- lib/scruffy/renderers/cubed3d.rb
+- lib/scruffy/renderers/empty.rb
+- lib/scruffy/renderers/legend_to_right.rb
+- lib/scruffy/renderers/pie.rb
+- lib/scruffy/renderers/reversed.rb
+- lib/scruffy/renderers/sparkline.rb
+- lib/scruffy/renderers/split.rb
+- lib/scruffy/renderers/standard.rb
 - lib/scruffy/formatters.rb
 - lib/scruffy/helpers.rb
 - lib/scruffy/layers.rb
