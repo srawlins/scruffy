@@ -1,7 +1,7 @@
 --- !ruby/object:Gem::Specification 
 name: srawlins-scruffy
 version: !ruby/object:Gem::Version 
-  version: 0.2.9.1
+  version: 0.2.9.2
 platform: ruby
 authors: 
 - Brasten Sager

@@ -34,7 +34,8 @@ module Scruffy::Renderers
         svg.instruct!
         svg.declare!(:DOCTYPE, :svg, :PUBLIC, "-//W3C//DTD SVG 1.1//EN", "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd")
       end
-      svg.svg(:xmlns => "http://www.w3.org/2000/svg", 'xmlns:xlink' => "http://www.w3.org/1999/xlink", :viewBox => "#{options[:size].first} 100 #{options[:size].last} 200") {
+      svg.svg(:xmlns => "http://www.w3.org/2000/svg", 'xmlns:xlink' => "http://www.w3.org/1999/xlink",
+              :viewBox => "0 0 #{options[:size].first} #{options[:size].last}") {
         svg.g(:id => options[:graph_id]) {
           rendertime_renderer.components.each do |component|
             component.render(svg, 
